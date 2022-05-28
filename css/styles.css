@@ -108,7 +108,7 @@ ul {
 
 }
 
-.site-nav .item:not(:last-child) {
+.site-nav.item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -122,7 +122,7 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    margin: 15px;
+    margin: 50px;
 }
 
 .site-nav .link:hover,
@@ -138,6 +138,7 @@ ul {
 .link {
     text-decoration: none;
     color: inherit;
+    margin-left: 22px;
 }
 
 /* Contact */
@@ -151,7 +152,7 @@ ul {
     padding-bottom: 32px;
 }
 
-.auth-nav .item {
+.auth-nav.item {
     margin-left: 50px;
 }
 
