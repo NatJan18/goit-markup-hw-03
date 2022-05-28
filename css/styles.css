@@ -251,6 +251,7 @@ ul {
 
 .section.do {
     padding-bottom: 94px;
+    display: flex;
 }
 
 .img-list {
