@@ -52,10 +52,11 @@ p {
     margin: 0;
 }
 
-.img {
+img {
     display: block;
     max-width: 100%;
-    height: auto;
+    width: 370px;
+    height: 294px;
 }
 
 ul {
@@ -79,6 +80,11 @@ ul {
     text-decoration: none;
     margin-right: 93px;
 
+}
+
+.footer .logo{
+    margin-bottom: 20px;
+    display: block;
 }
 
 .logo-accent {
@@ -122,7 +128,10 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    margin: 50px;
+}
+
+.site-nav .site-nav-item:not(:last-child) {
+    margin-right: 50px;
 }
 
 .site-nav .link:hover,
@@ -138,7 +147,6 @@ ul {
 .link {
     text-decoration: none;
     color: inherit;
-    margin-left: 22px;
 }
 
 /* Contact */
@@ -152,8 +160,8 @@ ul {
     padding-bottom: 32px;
 }
 
-.auth-nav.item {
-    margin-left: 50px;
+.auth-nav-item:not(:last-child) {
+    margin-right: 50px;
 }
 
 .auth-nav .link:hover,
@@ -312,7 +320,7 @@ ul {
 }
 
 .address-top {
-    margin-top: 20px;
+
 }
 
 .address {
@@ -344,31 +352,28 @@ ul {
 /* Button  */
 
 .button {
-    display: inline-block;
+    display: flex;
     padding-top: 10px;
     padding-right: 32px;
     padding-bottom: 10px;
     padding-left: 32px;
     border: none;
     border-radius: 4px;
-    color: var(--title-text-color);
-    background-color: var(--primary-white-color);
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button-primary {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+   
 }
 
 .button-primary:hover,
@@ -382,8 +387,6 @@ ul {
 .project-list {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px;
-
 }
 
 .section-portfolio {
@@ -394,7 +397,7 @@ ul {
 .button-list {
     display: flex;
     justify-content: center;
-
+    margin-bottom: 50px;
 }
 
 .button-portfolio {
