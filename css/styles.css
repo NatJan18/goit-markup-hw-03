@@ -387,6 +387,15 @@ ul {
 .project-list {
     display: flex;
     flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -50px;
+
+}
+
+.project-list > .project-item {
+    flex-basis: calc(100% / 3);
+    margin-left: 30px;
+    margin-top: 50px;
 }
 
 .section-portfolio {
