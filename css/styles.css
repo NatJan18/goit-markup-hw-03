@@ -264,11 +264,18 @@ ul {
 
 .img-list {
     display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
 }
 
-.img-list .item:not(:last-child) {
+.img-list > .item {
+    flex-basis: calc(100% / 3 - 30px);
     margin-right: 30px;
 }
+
+/* .img-list .item:not(:last-child) {
+    margin-right: 30px;
+} */
 
 /* Team section */
 
@@ -280,11 +287,10 @@ ul {
 
 .team {
     display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
 }
 
-.team .item:not(:last-child) {
-    margin-right: 30px;
-}
 
 
 .team .item {
@@ -297,6 +303,11 @@ ul {
 .team-list {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.team > .item {
+    flex-basis: calc(100% / 4 - 30px);
+    margin-right: 30px;
 }
 
 .team-name {
