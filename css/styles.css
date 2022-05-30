@@ -393,7 +393,7 @@ ul {
 }
 
 .project-list > .project-item {
-    flex-basis: calc(100% / 3);
+    flex-basis: calc(100% / 3 - 50px);
     margin-left: 30px;
     margin-top: 50px;
 }
